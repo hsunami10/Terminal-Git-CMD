@@ -88,6 +88,11 @@
 		<li>chmod +x <i>[filename]</i></li>
 		<li>sudo sh <i>[filename]</i></li>
 	</ul>
+	<li><strong>Set Permissions</strong></li>
+	<ul>
+		<li>chmod 755 <i>[filename]</i> - read, write, execute permission</li>
+		<li>chmod 700 <i>[filename]</i> - read and execute permission</li>
+	</ul>
 </ul>
 <h2>General Commands for Windows Command Prompt</h2>
 <h3>Open Command Line - Windows search "cmd"</h3>
