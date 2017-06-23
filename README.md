@@ -163,6 +163,7 @@
 <h3>Pulling and Pushing</h3>
 <ul>
 	<li><strong><i>When in a group collaboration, ALWAYS PULL BEFORE PUSHING</i></strong></li>
+	<li><strong>git pull [remote] [branchname]</strong></li>
 	<li>git pull origin master -> pull any changes from the <strong>master branch</strong></li>
 	<li>git push origin master -> push changes made from local repository to the <strong>master branch</strong> of the remote repository </li>
 </ul>
