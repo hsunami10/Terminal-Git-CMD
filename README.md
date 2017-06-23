@@ -221,9 +221,9 @@
 </ol>
 <h4>Delete Branch</h4>
 <ol>
-	<li>git branch -a</li>
 	<li>git branch -d <i>[name of branch]</i> -> deletes the selected branch locally</li>
 	<li>git push origin --delete <i>[name of branch]</i> -> deletes the selected branch remotely</li>
+	<li>git push origin :<i>[name of branch]</i> -> deletes the selected branch remotely</li>
 </ol>
 <h3>Undoing - Mistakes</h3>
 <ul>
