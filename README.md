@@ -228,6 +228,7 @@
 </ol>
 <h3>Undoing - Mistakes</h3>
 <ul>
+	<li>See commit IDs -> git reflog</li>
 	<li>Revert back to past commit -> git reset --hard [commidId] && git clean -f</li>
 	<li>Undo commit (before push) -> git reset HEAD~ -> undo recent commit</li>
 </ul>
