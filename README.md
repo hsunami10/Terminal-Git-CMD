@@ -227,7 +227,8 @@
 	<li>git push origin :<i>[name of branch]</i> -> deletes the selected branch remotely</li>
 </ol>
 <h3>Branch/Merging Conflicts</h3>
-<ol>
+<ul>
+	<li>use git pull to merge</li>
 	<li><i>if you see: <<<<<<<<<<< HEAD
 
 CODE1
@@ -237,7 +238,7 @@ CODE1
 CODE2
 
 <<<<<<<<< (a bunch of numbers - commit ID):</i> this tells you to choose one version and stick with it</li>
-</ol>
+</ul>
 <h3>Undoing - Mistakes</h3>
 <ul>
 	<li>See commit IDs -> git reflog</li>
