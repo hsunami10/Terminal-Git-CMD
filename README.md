@@ -226,6 +226,18 @@
 	<li>git push origin --delete <i>[name of branch]</i> -> deletes the selected branch remotely</li>
 	<li>git push origin :<i>[name of branch]</i> -> deletes the selected branch remotely</li>
 </ol>
+<h3>Branch/Merging Conflicts</h3>
+<ol>
+	<li><i>if you see: <<<<<<<<<<< HEAD
+
+CODE1
+
+=========
+
+CODE2
+
+<<<<<<<<< (a bunch of numbers - commit ID):</i> this tells you to choose one version and stick with it</li>
+</ol>
 <h3>Undoing - Mistakes</h3>
 <ul>
 	<li>See commit IDs -> git reflog</li>
