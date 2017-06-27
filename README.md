@@ -231,13 +231,14 @@
 	<li>use git pull to merge</li>
 	<li><i>if you see: <<<<<<<<<<< HEAD
 
+
 CODE1
 
 =========
 
 CODE2
 
-<<<<<<<<< (a bunch of numbers - commit ID):</i> this tells you to choose one version and stick with it</li>
+<<<<<<<<< (a bunch of numbers - commit ID):</i> this tells you to choose one version (CODE1 or CODE2) and stick with it</li>
 </ul>
 <h3>Undoing - Mistakes</h3>
 <ul>
