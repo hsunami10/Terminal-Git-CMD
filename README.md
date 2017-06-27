@@ -1,5 +1,6 @@
 <h1>How to use Git using Terminal (Mac) and Command Prompt (Windows)</h1>
 <p>Download Git <a href="https://git-scm.com/downloads">here</a></p>
+<p>Download SourceTree <a href="https://www.sourcetreeapp.com/">here</a></p>
 <h2>General Commands for Mac Terminal (Unix)</h2>
 <h3>Open terminal - Spotlight Search "Terminal" - Many commands similar to Linux</h3>
 <ul>
