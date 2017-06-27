@@ -228,7 +228,7 @@
 </ol>
 <h3>Branch/Merging Conflicts</h3>
 <ul>
-	<li>use git pull to merge</li>
+	<li>git rebase [origin] [branch]</li>
 	<li><i>if you see: <<<<<<<<<<< HEAD
 
 
@@ -239,6 +239,11 @@ CODE1
 CODE2
 
 <<<<<<<<< (a bunch of numbers - commit ID):</i> this tells you to choose one version (CODE1 or CODE2) and stick with it</li>
+	<li>fix conflicts in file</li>
+	<li>use git add to mark conflicts as resolved</li>
+	<li>git rebase --continue -> continue</li>
+	<li>git rebase --abort -> abort rebase</li>
+	<li>git rebase --skip -> skip patch</li>
 </ul>
 <h3>Undoing - Mistakes</h3>
 <ul>
