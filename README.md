@@ -228,7 +228,8 @@
 </ol>
 <h3>Branch/Merging Conflicts</h3>
 <ul>
-	<li>git rebase [origin] [branch]</li>
+	<li>git pull - merges and fetches all branches</li>
+	<li>git rebase [origin] [branch] (test merge)</li>
 	<li><i>if you see: <<<<<<<<<<< HEAD
 
 
