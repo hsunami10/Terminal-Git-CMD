@@ -228,7 +228,7 @@
 		<li>on branch: git branch -m <i>new-name</i></li>
 		<li>not on branch: git branch -m <i>old-name new-name</i></li>
 	</ul>
-	<li><strong>Delete the old-name remote branch and push the new-name local branch: git push origin :<i>old-name new-name</i></li>
+	<li><strong>Delete the old-name remote branch and push the new-name local branch:</strong> git push origin :<i>old-name new-name</i></li>
 	<li>Switch to branch</li>
 	<li>git push -u origin <i>new-name</i></li>
 </ol>
