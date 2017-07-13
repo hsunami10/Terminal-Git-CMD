@@ -221,6 +221,17 @@
 	<li>git merge <i>[name of branch]</i> -> merges the branch with master branch</li>
 	<li>Push changes to the remote master branch as usual</li>
 </ol>
+<h4>Rename Branch</h4>
+<ol>
+	<li><strong>Rename local branch</strong></li>
+	<ul>
+		<li>on branch: git branch -m <i>new-name</i></li>
+		<li>not on branch: git branch -m <i>old-name new-name</i></li>
+	</ul>
+	<li><strong>Delete the old-name remote branch and push the new-name local branch: git push origin :<i>old-name new-name</i></li>
+	<li>Switch to branch</li>
+	<li>git push -u origin <i>new-name</i></li>
+</ol>
 <h4>Delete Branch</h4>
 <ol>
 	<li>git branch -d <i>[name of branch]</i> -> deletes the selected branch locally</li>
