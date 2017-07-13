@@ -3,10 +3,12 @@
 <p>Download SourceTree <a href="https://www.sourcetreeapp.com/">here</a></p>
 <h2>General Commands for Mac Terminal (Unix)</h2>
 <h3>Open terminal - Spotlight Search "Terminal" - Many commands similar to Linux</h3>
+```javascript
+var x =	"hello world";
+```
+
 <ul>
-```bash
-ls
-``` -> list files and directories (not hidden)</li>
+	<li>ls -> list files and directories (not hidden)</li>
 	<li>ls -a -> list all directories <strong>and</strong> files</li>
 	<li>cd <i>[directory name]</i> -> change directory</li>
 	<li>cd .. -> go to parent directory</li>
