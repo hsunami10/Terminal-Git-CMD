@@ -4,7 +4,7 @@
 <h2>General Commands for Mac Terminal (Unix)</h2>
 <h3>Open terminal - Spotlight Search "Terminal" - Many commands similar to Linux</h3>
 <ul>
-```shell
+```bash
 ls
 ``` -> list files and directories (not hidden)</li>
 	<li>ls -a -> list all directories <strong>and</strong> files</li>
