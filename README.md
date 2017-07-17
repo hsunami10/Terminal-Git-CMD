@@ -218,7 +218,7 @@
 	</ul>
 	<li>git checkout master</li>
 	<li>git branch --merged -> shows which branches have been merged so far</li>
-	<li>git merge <i>[name of branch]</i> -> merges the branch with master branch</li>
+	<li>git merge <i>[name of branch]</i> -> merges the branch with the named branch</li>
 	<li>Push changes to the remote master branch as usual</li>
 </ol>
 <h4>Rename Branch</h4>
