@@ -143,6 +143,7 @@
 	<li>git config --global user.name <i>[your name]</i></li>
 	<li>git config --global user.email <i>[your email]</i></li>
 	<li>git config --list -> lists all of the configuration values</li>
+	<li>git config --global push.default current -> git push -u defaults the remote branch name to be the same name as your local branch</li>
 </ul>
 <hr>
 <h3>How to ask for help</h3>
@@ -199,7 +200,7 @@
 	<li>git remote rm origin -> removes remote repository</li>
 </ol>
 <hr>
-<p>In a professional setting, there would be more than one branch, and for the final product, those branches would be <i>merged</i> into the <strong>master branch</strong>.</p>
+<p>In a professional setting, there would be more than one branch (one for each "feature"), and for the final product, those branches would be <i>merged</i> into the <strong>master branch</strong>.</p>
 <h3>Multiple Branches</h3>
 <ol>
 	<li>Create a branch for your part of the project</li>
