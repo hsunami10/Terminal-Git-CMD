@@ -78,6 +78,7 @@
 </ul>
 <h2>General Commands for Linux</h2>
 <ul>
+	<li>grep -RI <i>[term]</i> * -> searches "term" in multiple files</li>
 	<li>wget <i>[link]</i></li>
 	<li>sudo <i>[command]</i> -> executes the <i>command</i> as a root
 	<li>.sh files -> runnable from shell</li>
