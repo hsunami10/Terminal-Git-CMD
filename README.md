@@ -139,6 +139,12 @@
 	<li>git reset -> removes <strong>all</strong> files from staging directory</li>
 </ul>
 <hr>
+<h3>Remove Tracking Files / Directories</h3>
+<ul>
+	<li>git rm -r <i>[directory]</i></li>
+	<li>git rm <i>[filename]</i></li>
+</ul>
+<hr>
 <h3>Configuration</h3>
 <ul>
 	<li>git config --global user.name <i>[your name]</i></li>
