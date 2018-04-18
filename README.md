@@ -95,6 +95,7 @@
 		<li>chmod 755 <i>[filename]</i> - read, write, execute permission</li>
 		<li>chmod 700 <i>[filename]</i> - read and execute permission</li>
 	</ul>
+	<li>tar -xvzf <i>filename.tar.gz</i> -> extract tar.gz file</li>
 </ul>
 <h2>General Commands for Windows Command Prompt</h2>
 <h3>Open Command Line - Windows search "cmd"</h3>
