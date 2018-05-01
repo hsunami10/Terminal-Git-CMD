@@ -92,8 +92,12 @@
 	</ul>
 	<li><strong>Set Permissions</strong></li>
 	<ul>
-		<li>chmod 755 <i>[filename]</i> - read, write, execute permission</li>
-		<li>chmod 700 <i>[filename]</i> - read and execute permission</li>
+               <li>chmod +x <i>[filename]</i> - make a file an executable</li>
+               <li><a href="https://chmodcommand.com/chmod-400/">chmod 400</a> <i>[filename]</i> - <strong>owner</strong> can read</li>
+               <li><a href="https://chmodcommand.com/chmod-666/">chmod 666</a> <i>[filename]</i> - <strong>all</strong> can read and write</li>
+               <li><a href="https://chmodcommand.com/chmod-700/">chmod 700</a> <i>[filename]</i> - <strong>owner</strong> can read, write, execute</li>
+		<li><a href="https://chmodcommand.com/chmod-755/">chmod 755</a> <i>[filename]</i> - <strong>all</strong> can read and execute, <strong>owner</strong> can also write</li>
+               <li><a href="https://chmodcommand.com/chmod-777/">chmod 777</a> <i>[filename]</i> - <strong>all</strong> can read, write, execute</li>
 	</ul>
 	<li>tar -xvzf <i>filename.tar.gz</i> -> extract tar.gz file</li>
 </ul>
