@@ -170,7 +170,7 @@
 <hr>
 <h3>Making changes to code</h3>
 <ul>
-	<li>git diff -> shows specific changes <strong>in files</strong></li>
+	<li>git diff <i>[path]</i>-> shows specific changes <strong>in files</strong></li>
 	<li>git status -> shows which <strong>files</strong> changed</li>
 </ul>
 <hr>
