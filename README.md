@@ -99,6 +99,7 @@
 		<li><a href="https://chmodcommand.com/chmod-755/">chmod 755</a> <i>[filename]</i> - <strong>all</strong> can read and execute, <strong>owner</strong> can also write</li>
                <li><a href="https://chmodcommand.com/chmod-777/">chmod 777</a> <i>[filename]</i> - <strong>all</strong> can read, write, execute</li>
 	</ul>
+	<li>tar -zcvf <i>[foldername].tar.gz [folder]</i> -> create tar.gz file</li>
 	<li>tar -xvzf <i>filename.tar.gz</i> -> extract tar.gz file</li>
 </ul>
 <h2>General Commands for Windows Command Prompt</h2>
@@ -170,8 +171,15 @@
 <hr>
 <h3>Making changes to code</h3>
 <ul>
-	<li>git diff <i>[path]</i>-> shows specific changes <strong>in files</strong></li>
+	<li>git diff <i>[path]</i>-> shows changes made, only <strong>tracked</strong>files</li>
+	<li>git diff --cached -> shows changes made in newly created, untracked files. Only works when it's staged</li>
+	<li><i>[any git diff command] > [filename].patch</i> -> stores modifications in a patch file</li>
+	<li>git apply <i>[filename].patch</i> -> applies changes shown in the patch file to the current git workspace</li>
 	<li>git status -> shows which <strong>files</strong> changed</li>
+	<li>git stash -> store changes in a stack, and revert those changes</li>
+	<li>git stash pop -> apply the most recent stash, and <strong>remove</strong></li>
+	<li>git stash apply -> apply the most recent stash, and <strong>keeps it in the stash</li>
+	<li>git stash list -> list stashes stored</li>
 </ul>
 <hr>
 <h3>Pulling and Pushing</h3>
