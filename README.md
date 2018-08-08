@@ -155,6 +155,7 @@
 <ul>
 	<li>git config --global user.name <i>[your name]</i></li>
 	<li>git config --global user.email <i>[your email]</i></li>
+	<li>git config --global core.editor "<i>editor_name</i>"</li>
 	<li>git config --list -> lists all of the configuration values</li>
 	<li>git config --global push.default current -> git push -u defaults the remote branch name to be the same name as your local branch</li>
 </ul>
