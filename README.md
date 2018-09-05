@@ -92,6 +92,11 @@
 	</ul>
 	<li><strong>Set Permissions</strong></li>
 	<ul>
+			   <li><strong>NOTE:</strong> u = user, g = group, o = others, r = read, w = write, x = execute.</li>
+			   <li><strong>NOTE:</strong> View permissions by typing: ls -l. 1st 3: user, 2nd 3: group, last 3: others.</li>
+			   <li>chmod <i>[u/g/o]=[r/w/x] filename</i> - set permissions. Ex: chmod g=rwx file.txt</li>
+			   <li>chmod <i>[u/g/o]+/-[r/w/x] filename</i> - add / remove permissions. Ex: chmod g-x file.txt</li>
+			   <li>chmod <i>3_digit_number</i> - set permissions. 1st digit: user, 2nd digit: group, 3rd digit: others.</li>
                <li>chmod +x <i>[filename]</i> - make a file an executable</li>
                <li><a href="https://chmodcommand.com/chmod-400/">chmod 400</a> <i>[filename]</i> - <strong>owner</strong> can read</li>
                <li><a href="https://chmodcommand.com/chmod-666/">chmod 666</a> <i>[filename]</i> - <strong>all</strong> can read and write</li>
