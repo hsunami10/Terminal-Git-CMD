@@ -92,7 +92,7 @@
 	</ul>
 	<li><strong>Set Permissions</strong></li>
 	<ul>
-			   <li><strong>NOTE:</strong> u = user, g = group, o = others, r = read, w = write, x = execute.</li>
+			   <li><strong>NOTE:</strong> u = user, g = group, o = others, r = 4 = read, w = 2 = write, x = 1 = execute.</li>
 			   <li><strong>NOTE:</strong> View permissions by typing: ls -l. 1st 3: user, 2nd 3: group, last 3: others.</li>
 			   <li>chmod <i>[u/g/o]=[r/w/x] filename</i> - set permissions. Ex: chmod g=rwx file.txt</li>
 			   <li>chmod <i>[u/g/o]+/-[r/w/x] filename</i> - add / remove permissions. Ex: chmod g-x file.txt</li>
