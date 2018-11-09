@@ -194,6 +194,7 @@
 	<li><strong>git pull [remote] [branchname]</strong></li>
 	<li>git pull origin master -> pull any changes from the <strong>master branch</strong></li>
 	<li>git push origin master -> push changes made from local repository to the <strong>master branch</strong> of the remote repository </li>
+	<li>git push origin +master -> force push</li>
 </ul>
 <hr>
 <hr>
