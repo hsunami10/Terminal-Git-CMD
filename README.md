@@ -184,7 +184,7 @@
 	<li>git status -> shows which <strong>files</strong> changed</li>
 	<li>git stash -> store changes in a stack, and revert those changes</li>
 	<li>git stash pop -> apply the most recent stash, and <strong>remove</strong></li>
-	<li>git stash apply -> apply the most recent stash, and <strong>keeps it in the stash</li>
+	<li>git stash apply -> apply the most recent stash, and <strong>keeps it in the stash</strong></li>
 	<li>git stash list -> list stashes stored</li>
 </ul>
 <hr>
