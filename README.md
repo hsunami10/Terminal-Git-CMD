@@ -292,6 +292,10 @@ CODE2
 <h3>Undoing - Mistakes</h3>
 <ul>
 	<li>See state IDs and history -> git reflog</li>
-	<li>Revert back to past commit -> git reset --hard [commidId] && git clean -f</li>
+	<li>Revert back to past commit -> git reset --hard [commitId] && git clean -f</li>
 	<li>Undo commit (before push) -> git reset HEAD~ -> undo recent commit</li>
 </ul>
+<h3>Completely Overriding Local Files</h3>
+- git fetch --all
+- git reset --hard _<remote>/<branch_name>_
+	- ex. _git reset --hard origin/master_
