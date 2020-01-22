@@ -296,6 +296,7 @@ CODE2
 	<li>Undo commit (before push) -> git reset HEAD~ -> undo recent commit</li>
 </ul>
 <h3>Completely Overriding Local Files</h3>
-* git fetch --all
-* git reset --hard _<remote>/<branch_name>_
-	* ex. _git reset --hard origin/master_
+<ul>
+	<li>git fetch --all</li>
+	<li>git reset --hard <remote>/<branch_name></li>
+</ul>
