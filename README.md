@@ -298,5 +298,5 @@ CODE2
 <h3>Completely Overriding Local Files</h3>
 <ul>
 	<li>git fetch --all</li>
-	<li>git reset --hard <remote>/<branch_name></li>
+	<li>git reset --hard \<remote\>\/\<branch_name\></li>
 </ul>
