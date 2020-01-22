@@ -260,11 +260,12 @@
 	<li>Switch to branch</li>
 	<li>git push -u origin <i>new-name</i></li>
 </ol>
-<h4>Delete Branch</h4>
+<h4>Delete Branches</h4>
 <ol>
 	<li>git branch -d <i>[name of branch]</i> -> deletes the selected branch locally</li>
 	<li>git push origin --delete <i>[name of branch]</i> -> deletes the selected branch remotely</li>
 	<li>git push origin :<i>[name of branch]</i> -> deletes the selected branch remotely</li>
+	<li>git branch | grep <i>[keyword]</i> | xargs git branch -D -> deletes all local branches that names contain <i>[keyword]</i></li>
 </ol>
 <h3>Branch/Merging Conflicts</h3>
 <ul>
