@@ -290,6 +290,21 @@ CODE2
 		<li>git rebase --skip -> skip patch</li>
 	</ul>
 </ul>
+<h3>Squashing Commits</h3>
+<p>This is to make repositories more clean, squashing multiple commits into one commit.</p>
+First, rebase with master:
+<ul>
+	<li>git checkout master</li>
+	<li>git pull origin master</li>
+	<li>git checkout <i>[branch-name]</i></li>
+	<li>git rebase -i master</li>
+</ul>
+You should see a list of commits, each commit starting with the word "pick".<br>
+Make sure the first commit says "pick" and change the rest from "pick" to "squash". -- This will squash each commit into the previous commit, which will continue until every commit is squashed into the first commit.<br>
+Save and close the editor (vim - esc + w + q + enter)<br>
+It will give you the opportunity to change the commit message.<br>
+Save and close the editor again.<br>
+Then you have to force push the final, squashed commit: git push --force-with-lease origin.
 <h3>Undoing - Mistakes</h3>
 <ul>
 	<li>See state IDs and history -> git reflog</li>
